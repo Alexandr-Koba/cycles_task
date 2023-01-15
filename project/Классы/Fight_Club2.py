@@ -1,6 +1,6 @@
-class Hero:
+class Hero: #Родительский класс
     def __init__(self, name, age, damage, armor, health):
-        self.name = name
+        self.name = name # Атрибуты
         self.age = age
         self.damage = damage
         self.armor = armor
@@ -22,3 +22,11 @@ frank = Hero('Громила', 20, 95, 10, 330)
 
 dima.info()
 frank.info()
+
+dima.health = dima.health - frank.damage
+dima.health
+dima.info()
+
+
+
+
