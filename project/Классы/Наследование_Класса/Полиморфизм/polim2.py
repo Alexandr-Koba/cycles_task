@@ -13,5 +13,4 @@ print(rect_2.get_area())
 square_1 = Square(5)
 square_2 = Square(10)
 
-print(square_1.get_area_square(),
-      square_2.get_area_square())
+print(square_1.get_area_square(), square_2.get_area_square())

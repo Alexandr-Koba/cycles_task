@@ -2,7 +2,7 @@
 class Rectangle:
     def __init__(self,a,b):
         self.a = a
-       	self.b = b		  
+        self.b = b		  
     
     def get_area(self):		
         return self.a * self.b
@@ -11,8 +11,8 @@ class Rectangle:
         print(f"{self.a} * {self.b} = {self.a * self.b}")
 
 class Square:
-    def __init__(self,a):
-	self.a = a
+    def __init__(a):
+    self.a = a
     
     def get_area_square(self):		
         return self.a ** 2
